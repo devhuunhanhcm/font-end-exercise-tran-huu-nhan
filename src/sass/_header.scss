@@ -1,0 +1,29 @@
+.header{
+    &-logo{
+        width: 200px;
+    }
+}
+.nav{
+    &{
+        background-color: $primary-color;
+    }
+    &-list{
+        display: flex;
+        gap: 20px;
+    }
+    &-item{
+
+    }
+    &-link{
+        color: $white-color;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        display: block;
+        padding: 15px 0;
+        transition: ease-in-out .3s;
+        &:hover{
+            background-color: $gray-color;
+            color: $primary-color;
+        }
+    }
+}

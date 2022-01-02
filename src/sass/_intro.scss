@@ -1,0 +1,38 @@
+.intro {
+    & {
+        padding: 40px 0;
+    }
+    &-text {
+        font-size: 2rem;
+        color: $text-color;
+        line-height: 1.6;
+    }
+    &-product {
+        display: flex;
+        gap: 0 10px;
+        margin: 40px 0;
+        &-r{
+            display: flex;
+            flex-direction: column;
+            gap: 10px 0;
+        }
+        &-l {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+            grid-template-areas:
+                "h1 h2"
+                "h3 h3"
+                "h3 h3";
+            .intro-product-item:first-child {
+                grid-area: h1;
+            }
+            .intro-product-item:nth-child(2) {
+                grid-area: h2;
+            }
+            .intro-product-item:nth-child(3) {
+                grid-area: h3;
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 18px;
+    font-family: $font-primary;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-fuild{
+    width: 100%;
+}
+.hight-line-text{
+    color: $second-color;
+    font-weight: 700;
+}
+.heading{
+    font-weight: 700;
+    font-size: 3rem;
+    color: $primary-color;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.btn{
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    min-width: 110px;
+    padding: 10px 12px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    &-primary{
+        color: $white-color;
+        background-color: $second-color;
+    }
+}

@@ -1,0 +1,43 @@
+.product{
+    &{
+       
+    }
+    &-main{
+       
+    }
+
+    &-list{
+        margin: 20px 0;
+    }
+
+    &-item{
+        padding: 0 10px;
+    }
+
+    &-header{
+
+    }
+
+    &-img{
+        padding-top: 68%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &-content{
+        padding: 10px;
+    }
+
+    &-name{
+        font-size: 2rem;
+        color: $second-color;
+    }
+
+    &-desc{
+        font-size: 1.4rem;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+
+}

@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-fuild {
+  width: 100%;
+}
+
+.hight-line-text {
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #0D1524;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.btn {
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  min-width: 110px;
+  padding: 10px 12px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.header-logo {
+  width: 200px;
+}
+
+.nav {
+  background-color: #0D1524;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+.nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  display: block;
+  padding: 15px 0;
+  transition: ease-in-out 0.3s;
+}
+.nav-link:hover {
+  background-color: #ccc;
+  color: #0D1524;
+}
+
+.slider-link {
+  padding-top: 40%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  padding: 40px 0;
+}
+.intro-text {
+  font-size: 2rem;
+  color: #333;
+  line-height: 1.6;
+}
+.intro-product {
+  display: flex;
+  gap: 0 10px;
+  margin: 40px 0;
+}
+.intro-product-r {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.intro-product-l {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas: "h1 h2" "h3 h3" "h3 h3";
+}
+.intro-product-l .intro-product-item:first-child {
+  grid-area: h1;
+}
+.intro-product-l .intro-product-item:nth-child(2) {
+  grid-area: h2;
+}
+.intro-product-l .intro-product-item:nth-child(3) {
+  grid-area: h3;
+}
+
+.product-list {
+  margin: 20px 0;
+}
+.product-item {
+  padding: 0 10px;
+}
+.product-img {
+  padding-top: 68%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-content {
+  padding: 10px;
+}
+.product-name {
+  font-size: 2rem;
+  color: #e74c3c;
+}
+.product-desc {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.banner {
+  margin: 40px 0;
+}
+.banner-img {
+  padding-top: 32%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner-sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  color: #fff;
+  background-color: rgba(240, 58, 58, 0.5);
+  padding: 40px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+.banner-title {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 1;
+}
+.banner-percent {
+  font-size: 7rem;
+  line-height: 1;
+}
+.banner-desc {
+  font-size: 1.8rem;
+}
+
+.service-main {
+  padding: 20px 0;
+}
+.service-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+}
+.service-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-title {
+  font-size: 3rem;
+  color: #e74c3c;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.service-desc {
+  text-align: center;
+  width: 80%;
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.footer-main {
+  background-color: #0D1524;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.footer-contact {
+  padding: 20px 0;
+}
+.footer-contact__name {
+  font-size: 4.6rem;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=app.css.map */
