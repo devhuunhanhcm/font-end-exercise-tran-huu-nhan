@@ -116,9 +116,16 @@ html {
   padding: 15px 0;
   transition: ease-in-out 0.3s;
 }
-.nav-link:hover {
-  background-color: #ccc;
-  color: #0D1524;
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: ease-in-out 0.3s;
+}
+.nav-link:hover::after {
+  width: 100%;
 }
 
 .slider-link {

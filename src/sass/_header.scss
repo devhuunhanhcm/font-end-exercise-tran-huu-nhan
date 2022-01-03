@@ -11,9 +11,6 @@
         display: flex;
         gap: 20px;
     }
-    &-item{
-
-    }
     &-link{
         color: $white-color;
         text-transform: uppercase;
@@ -21,9 +18,16 @@
         display: block;
         padding: 15px 0;
         transition: ease-in-out .3s;
-        &:hover{
-            background-color: $gray-color;
-            color: $primary-color;
+        &::after{
+            content: "";
+            display: block;
+            width: 0;
+            height: 2px;
+            background-color: $white-color;
+            transition: ease-in-out .3s;
+        }
+        &:hover::after{
+            width: 100%;
         }
     }
 }
