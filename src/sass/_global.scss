@@ -48,3 +48,13 @@ html{
         background-color: $second-color;
     }
 }
+@media (min-width:740px) and (max-width: 1023px){
+    .container{
+        width: 644px;
+    }
+}
+@media (min-width: 1024px) and (max-width:1239px){
+    .container{
+        width: 984px;
+    }
+}

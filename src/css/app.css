@@ -97,6 +97,16 @@ html {
   background-color: #e74c3c;
 }
 
+@media (min-width: 740px) and (max-width: 1023px) {
+  .container {
+    width: 644px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .container {
+    width: 984px;
+  }
+}
 .header-logo {
   width: 200px;
 }
@@ -244,7 +254,6 @@ html {
   gap: 0 20px;
 }
 .service-item {
-  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -282,6 +291,85 @@ html {
   letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 10px;
+}
+
+/* tablet and mobile */
+@media (max-width: 1023px) {
+  .banner-sale {
+    width: 200px;
+    height: 200px;
+  }
+  .banner-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .banner-percent {
+    font-size: 5rem;
+  }
+  .banner-desc {
+    font-size: 1.2rem;
+  }
+
+  .service-title {
+    font-size: 2.4rem;
+  }
+  .service-desc {
+    font-size: 1rem;
+  }
+
+  .footer-contact__name {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+}
+/* tablet  */
+/* mobile */
+@media (max-width: 739px) {
+  .container {
+    width: 400px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .banner-sale {
+    width: 100px;
+    height: 100px;
+  }
+  .banner-title {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  .banner-percent {
+    font-size: 2rem;
+  }
+  .banner-desc {
+    font-size: 0.6rem;
+    line-height: 1;
+  }
+
+  .service-title {
+    font-size: 1.2rem;
+  }
+  .service-desc {
+    font-size: 1rem;
+  }
+  .service-logo-img {
+    width: 50px;
+  }
+
+  .footer-main {
+    font-size: 1.2rem;
+  }
+  .footer-contact__name {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
